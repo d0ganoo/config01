@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --env development",
+    "dev": "webpack --env development --open",
     "build": "webpack --env production"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "webpack": "^4.35.0",
-    "webpack-cli": "^3.3.5"
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
   }
 }
